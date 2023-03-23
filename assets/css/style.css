@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{  color: #ffffff;
+    text-decoration: none;
+}
+li{
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding: 40px 0px;
+}
+.navpanel ul{
+    display: flex;
+    gap: 43px;
+    flex-wrap: wrap;
+}
+.navpanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+   
+    width: 100%;
+    height: 387.56px;
+    background-color: #0020F4;
+}
+li:nth-child(6){
+    padding: 18px 43px 18px 36px;
+    background-color: #ffffff;
+    border-radius: 28px;
+}
+.contact{
+    color: #171717;
+    
+}
+.main-img{
+    width: 100%;
+}
+.photo-text{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 1195px;
+    width: 90%;
+    margin: auto;
+    margin-top: -160px;
+}
+.images{
+    
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+.text{
+    max-width: 951px;
+    width: 100%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.more-info{
+    background-color: #0020F4;
+    border-radius: 28px;
+    color: #ffffff;
+    padding: 18px 77px 18px 57px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+.footer{
+    max-width: 1920px;
+    width: 100%;
+    height: 1080px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 500px;
+    flex-wrap: wrap;
+}
+footer{
+    width: 100%;
+    background-color: #0020F4;
+    color: #ffffff;
+    padding: 275px;
+   
+    
+    
+}
+footer img{
+    padding: 22px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+.phone-mail{
+    
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    flex-wrap: wrap;
+    
+}
+.phone, .mail{
+    
+    display: flex;
+    align-items: center;
+    
+    gap: 20px;
+}
+footer .footer-text{
+    max-width: 463px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 58px;
+}
+.map{
+    max-width: 463px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 10px -10px #ffffff;
+    margin-bottom: 70px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    
+}
+.register-form{
+    max-width: 463px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+    
+input, textarea{
+    border: none;
+    border-bottom: 1px solid #2478f7;
+    padding-bottom: 41px;
+    background-color: #0020F4;
+    resize: none;
+}
+.sent-button{
+    padding: 18px 45px 18px 36px;
+    border-radius: 28px;
+    background-color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    justify-content: end;
+}
+
